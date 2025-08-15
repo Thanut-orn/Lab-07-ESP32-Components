@@ -5,7 +5,7 @@
 
 
 ## สรุปคำสั่งที่ใช้ และผลลัพธ์ที่ได้
-
+```c
 # เริ่มต้น Docker Container
 docker-compose up -d
 
@@ -32,6 +32,6 @@ idf.py build
 
 # รัน QEMU (สำหรับการทดสอบ)
 idf.py qemu monitor
-
+```
 
 ![alt text](image.png)
